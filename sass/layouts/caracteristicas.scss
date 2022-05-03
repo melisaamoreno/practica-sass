@@ -1,0 +1,3 @@
+.caracteristicas {
+    @include flex ($direction: row, $aligment: center);
+}
