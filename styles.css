@@ -1,17 +1,64 @@
-/* Error: Expected '.
- *   ,
- * 7 | @import 'layouts/caracteristicas.scss;
- *   |                                       ^
- *   '
- *   sass\main.scss 7:39  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected '.\a   \2577 \a 7 \2502  @import 'layouts/caracteristicas.scss;\a   \2502                                        ^\a   \2575 \a   sass\\main.scss 7:39  root stylesheet";
+/*
+gris hover: #4f4f4f
+gris claro: #dedede
+celeste: #4facd3
+naranja: #ddb146
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35)
+verde precios: #86b773
+celeste precios: #4c8dce
+*/
+/*
+facebook: #3b5998
+twitter: #55acee
+youtube: #cd201f
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
+
+header {
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 20px 70px;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 0px 10px;
+}
+.nav-bar a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.precios {
+  background-image: url("img/precios-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding: 20px 70px;
+}
+
+.caracteristicas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
